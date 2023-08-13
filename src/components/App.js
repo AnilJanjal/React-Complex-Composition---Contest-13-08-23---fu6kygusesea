@@ -2,7 +2,7 @@ import React from 'react'
 import '../styles/App.css';
 const TypesOfFruit = () => {
   return (
-    <div id="typesOfFruits">
+    <div id="TypesOfFruit">
       <h2>Fruits:</h2>
       <ul>
         <li>Apples</li>
