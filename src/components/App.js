@@ -1,5 +1,6 @@
-import React from 'react'
+import React from 'react';
 import '../styles/App.css';
+
 const TypesOfFruit = () => {
   return (
     <div id="TypesOfFruit">
@@ -17,26 +18,20 @@ const TypesOfFruit = () => {
 const Fruits = () => {
   return (
     <div id="fruits">
-      { /* Change code below this line */ }
-  <TypesOfFruit/>
- 
-       
-      { /* Change code above this line */ }
+      {/* Render the TypesOfFruit component inside Fruits */}
+      <TypesOfFruit />
     </div>
   );
 };
-const App = () => {
 
+const App = () => {
   return (
     <div id="main">
       <h1>Types of Food:</h1>
-      { /* Change code below this line */ }
-       <Fruits/>
-
-      { /* Change code above this line */ }
+      {/* Render the Fruits component inside App */}
+      <Fruits />
     </div>
-  )
-}
-
+  );
+};
 
 export default App;
